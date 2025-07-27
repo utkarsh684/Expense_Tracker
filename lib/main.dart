@@ -3,9 +3,10 @@ import 'package:expense_tracker/expenses.dart';
 
 void main() {
   runApp(
-    const MaterialApp(
+     MaterialApp(
       home: Expenses(),
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(useMaterial3: true),
     )
   );
 }
-
